@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="w" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#d4c5a9"/><stop offset="100%" stop-color="#c4b090"/></linearGradient>
+    <linearGradient id="f" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#8B6914"/><stop offset="100%" stop-color="#6B4F10"/></linearGradient>
+    <linearGradient id="s" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#B0E2FF"/></linearGradient>
+    <linearGradient id="b" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#f5f0e8"/><stop offset="100%" stop-color="#e8e0d0"/></linearGradient>
+  </defs>
+  <!-- Wall & floor -->
+  <rect width="400" height="240" fill="url(#w)"/>
+  <rect y="182" width="400" height="58" fill="url(#f)"/>
+  <line x1="0" y1="196" x2="400" y2="196" stroke="#5a3f0a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="215" x2="400" y2="215" stroke="#5a3f0a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="234" x2="400" y2="234" stroke="#5a3f0a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="100" y1="182" x2="100" y2="240" stroke="#5a3f0a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="200" y1="182" x2="200" y2="240" stroke="#5a3f0a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="300" y1="182" x2="300" y2="240" stroke="#5a3f0a" stroke-width="0.5" opacity="0.4"/>
+  <!-- Window -->
+  <rect x="285" y="22" width="100" height="115" rx="4" fill="url(#s)" opacity="0.9"/>
+  <rect x="285" y="22" width="100" height="115" rx="4" fill="none" stroke="#8B7355" stroke-width="4"/>
+  <line x1="335" y1="22" x2="335" y2="137" stroke="#8B7355" stroke-width="3"/>
+  <line x1="285" y1="80" x2="385" y2="80" stroke="#8B7355" stroke-width="3"/>
+  <path d="M283 20 Q273 78 280 137" fill="#c9a87c" opacity="0.85"/>
+  <path d="M387 20 Q397 78 390 137" fill="#c9a87c" opacity="0.85"/>
+  <!-- Headboard -->
+  <rect x="35" y="88" width="225" height="72" rx="8" fill="#5C3D1E"/>
+  <rect x="43" y="95" width="209" height="58" rx="6" fill="#7A5230"/>
+  <line x1="97" y1="101" x2="97" y2="147" stroke="#5C3D1E" stroke-width="1.5" opacity="0.5"/>
+  <line x1="147" y1="101" x2="147" y2="147" stroke="#5C3D1E" stroke-width="1.5" opacity="0.5"/>
+  <line x1="198" y1="101" x2="198" y2="147" stroke="#5C3D1E" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bed -->
+  <rect x="25" y="152" width="245" height="38" rx="4" fill="#4A2E0F"/>
+  <rect x="30" y="145" width="235" height="46" rx="6" fill="url(#b)"/>
+  <rect x="38" y="148" width="88" height="30" rx="8" fill="white" opacity="0.95"/>
+  <rect x="41" y="151" width="82" height="24" rx="7" fill="white"/>
+  <rect x="162" y="148" width="88" height="30" rx="8" fill="white" opacity="0.95"/>
+  <rect x="165" y="151" width="82" height="24" rx="7" fill="white"/>
+  <rect x="30" y="168" width="235" height="23" rx="4" fill="#4A7FA5" opacity="0.9"/>
+  <line x1="30" y1="175" x2="265" y2="175" stroke="white" stroke-width="1" opacity="0.35"/>
+  <!-- Nightstand + lamp -->
+  <rect x="4" y="154" width="26" height="34" rx="3" fill="#5C3D1E"/>
+  <rect x="6" y="156" width="22" height="14" rx="2" fill="#7A5230"/>
+  <rect x="6" y="172" width="22" height="14" rx="2" fill="#7A5230"/>
+  <rect x="11" y="137" width="10" height="18" fill="#8B7355"/>
+  <polygon points="5,137 27,137 22,122 16,122" fill="#FFD700" opacity="0.9"/>
+  <ellipse cx="16" cy="122" rx="8" ry="3" fill="#FFF9C4" opacity="0.8"/>
+  <!-- Badge -->
+  <rect x="8" y="8" width="150" height="33" rx="6" fill="#1a1a2e" opacity="0.93"/>
+  <text x="18" y="21" font-family="Georgia,serif" font-size="9" fill="#FFD700" font-weight="bold">STANDARD ROOM</text>
+  <text x="18" y="34" font-family="Arial,sans-serif" font-size="8" fill="#aaa">Cozy · WiFi · Breakfast · AC</text>
+</svg>

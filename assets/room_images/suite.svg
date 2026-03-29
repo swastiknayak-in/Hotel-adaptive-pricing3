@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="sw" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#f0e8d8"/><stop offset="100%" stop-color="#e0d0b8"/></linearGradient>
+    <linearGradient id="sf" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e8e0d8"/><stop offset="100%" stop-color="#d8d0c8"/></linearGradient>
+    <linearGradient id="sn" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0a1628"/><stop offset="50%" stop-color="#1a2a4a"/><stop offset="100%" stop-color="#2a3a5a"/></linearGradient>
+    <linearGradient id="jc" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#4dd0e1"/><stop offset="100%" stop-color="#00838F"/></linearGradient>
+    <clipPath id="tc"><rect x="200" y="10" width="190" height="178" rx="4"/></clipPath>
+  </defs>
+  <!-- Marble wall -->
+  <rect width="400" height="240" fill="url(#sw)"/>
+  <path d="M0 40 Q100 35 200 45 Q300 55 400 40" fill="none" stroke="#d8c8a8" stroke-width="1" opacity="0.5"/>
+  <path d="M50 0 Q55 80 45 160" fill="none" stroke="#e0d0b0" stroke-width="0.8" opacity="0.4"/>
+  <!-- Marble tile floor -->
+  <rect y="188" width="400" height="52" fill="url(#sf)"/>
+  <line x1="0" y1="204" x2="400" y2="204" stroke="#ccc" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="222" x2="400" y2="222" stroke="#ccc" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="188" x2="50" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="188" x2="100" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="188" x2="150" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="188" x2="200" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="250" y1="188" x2="250" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="300" y1="188" x2="300" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <line x1="350" y1="188" x2="350" y2="240" stroke="#ccc" stroke-width="1" opacity="0.4"/>
+  <!-- Night panoramic window -->
+  <g clip-path="url(#tc)"><rect x="200" y="10" width="190" height="178" fill="url(#sn)"/></g>
+  <circle cx="220" cy="25" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="260" cy="18" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="300" cy="26" r="1.2" fill="white" opacity="0.8"/>
+  <circle cx="340" cy="15" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="375" cy="24" r="1.2" fill="white" opacity="0.8"/>
+  <circle cx="350" cy="38" r="14" fill="#FFF9C4" opacity="0.9"/>
+  <circle cx="358" cy="34" r="10" fill="url(#sn)" opacity="0.7"/>
+  <rect x="205" y="145" width="6" height="38" fill="#FFD700" opacity="0.4"/>
+  <rect x="220" y="135" width="8" height="48" fill="#FF9800" opacity="0.35"/>
+  <rect x="245" y="148" width="7" height="35" fill="#FFD700" opacity="0.4"/>
+  <rect x="318" y="140" width="9" height="43" fill="#FFD700" opacity="0.4"/>
+  <rect x="360" y="150" width="7" height="33" fill="#FF9800" opacity="0.35"/>
+  <rect x="200" y="10" width="190" height="178" rx="4" fill="none" stroke="#8B7355" stroke-width="5"/>
+  <path d="M198 8 Q185 96 192 188" fill="#8B0000" opacity="0.75"/>
+  <path d="M390 8 Q403 96 396 188" fill="#8B0000" opacity="0.75"/>
+  <!-- King bed - tufted headboard -->
+  <rect x="14" y="75" width="178" height="88" rx="12" fill="#1a0a00"/>
+  <rect x="21" y="82" width="164" height="74" rx="10" fill="#2d1506"/>
+  <circle cx="54" cy="104" r="5" fill="#1a0a00"/>
+  <circle cx="103" cy="104" r="5" fill="#1a0a00"/>
+  <circle cx="152" cy="104" r="5" fill="#1a0a00"/>
+  <circle cx="54" cy="136" r="5" fill="#1a0a00"/>
+  <circle cx="103" cy="136" r="5" fill="#1a0a00"/>
+  <circle cx="152" cy="136" r="5" fill="#1a0a00"/>
+  <rect x="8" y="158" width="185" height="38" rx="5" fill="#0d0500"/>
+  <rect x="12" y="152" width="177" height="46" rx="8" fill="#fdf8f0"/>
+  <rect x="18" y="155" width="55" height="27" rx="8" fill="white"/>
+  <rect x="21" y="158" width="49" height="21" rx="7" fill="#FAFAFA"/>
+  <rect x="110" y="155" width="55" height="27" rx="8" fill="white"/>
+  <rect x="113" y="158" width="49" height="21" rx="7" fill="#FAFAFA"/>
+  <!-- Silk burgundy blanket -->
+  <rect x="12" y="172" width="177" height="26" rx="5" fill="#4A0E0E" opacity="0.93"/>
+  <rect x="12" y="172" width="177" height="7" rx="3" fill="#6B1414" opacity="0.8"/>
+  <rect x="12" y="172" width="177" height="2.5" rx="1" fill="#FFD700" opacity="0.8"/>
+  <!-- Crystal lamp -->
+  <rect x="0" y="160" width="12" height="34" rx="3" fill="#1a0a00"/>
+  <rect x="2" y="144" width="8" height="17" fill="#6D6D6D"/>
+  <polygon points="-1,144 11,144 9,130 3,130" fill="#FFFDE7" opacity="0.95"/>
+  <ellipse cx="5" cy="130" rx="7" ry="3" fill="#FFF9C4"/>
+  <!-- Jacuzzi tub -->
+  <ellipse cx="316" cy="218" rx="52" ry="17" fill="#00838F" opacity="0.3"/>
+  <ellipse cx="316" cy="214" rx="49" ry="15" fill="url(#jc)" opacity="0.87"/>
+  <circle cx="295" cy="208" r="3" fill="white" opacity="0.5"/>
+  <circle cx="316" cy="206" r="2" fill="white" opacity="0.6"/>
+  <circle cx="338" cy="210" r="3" fill="white" opacity="0.5"/>
+  <ellipse cx="316" cy="214" rx="49" ry="15" fill="none" stroke="#E0E0E0" stroke-width="4"/>
+  <text x="299" y="217" font-family="Arial" font-size="8" fill="white" opacity="0.8">JACUZZI</text>
+  <!-- Grand chandelier -->
+  <line x1="95" y1="0" x2="95" y2="13" stroke="#8B7355" stroke-width="4"/>
+  <ellipse cx="95" cy="15" rx="30" ry="8" fill="#D4A017" opacity="0.9"/>
+  <line x1="70" y1="15" x2="63" y2="27" stroke="#D4A017" stroke-width="2"/>
+  <line x1="95" y1="15" x2="95" y2="29" stroke="#D4A017" stroke-width="2"/>
+  <line x1="120" y1="15" x2="127" y2="27" stroke="#D4A017" stroke-width="2"/>
+  <circle cx="63" cy="30" r="4" fill="#FFF9C4" opacity="0.95"/>
+  <circle cx="95" cy="32" r="4" fill="#FFF9C4" opacity="0.95"/>
+  <circle cx="127" cy="30" r="4" fill="#FFF9C4" opacity="0.95"/>
+  <!-- Badge -->
+  <rect x="8" y="8" width="148" height="33" rx="6" fill="#2C1810" opacity="0.95"/>
+  <text x="18" y="21" font-family="Georgia,serif" font-size="9" fill="#FFD700" font-weight="bold">LUXURY SUITE</text>
+  <text x="18" y="34" font-family="Arial,sans-serif" font-size="8" fill="#FFD700" opacity="0.75">Jacuzzi · Butler · City Panorama</text>
+</svg>

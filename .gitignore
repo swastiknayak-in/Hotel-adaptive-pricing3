@@ -1,0 +1,19 @@
+# ML models — auto-generated at runtime (too large for GitHub)
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+.venv/
+venv/
+
+# Runtime data — generated when customers book
+storage/bookings.csv
+
+# Keep folder placeholders in Git
+!models/.gitkeep
+!storage/.gitkeep

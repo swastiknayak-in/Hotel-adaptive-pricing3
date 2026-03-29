@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="fw" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e8f4e8"/><stop offset="100%" stop-color="#d8e8d0"/></linearGradient>
+    <linearGradient id="ff" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#c8a870"/><stop offset="100%" stop-color="#a88050"/></linearGradient>
+    <linearGradient id="fs" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#64B5F6"/><stop offset="60%" stop-color="#90CAF9"/><stop offset="100%" stop-color="#E3F2FD"/></linearGradient>
+    <linearGradient id="fso" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#5D4037"/><stop offset="100%" stop-color="#4E342E"/></linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#fw)"/>
+  <!-- Subtle dots wallpaper -->
+  <circle cx="50" cy="50" r="2.5" fill="#c8dcc0" opacity="0.4"/>
+  <circle cx="120" cy="35" r="2" fill="#c8dcc0" opacity="0.3"/>
+  <circle cx="170" cy="60" r="2.5" fill="#c8dcc0" opacity="0.4"/>
+  <circle cx="60" cy="120" r="2" fill="#c8dcc0" opacity="0.3"/>
+  <circle width="400" height="240"/>
+  <!-- Floor -->
+  <rect y="188" width="400" height="52" fill="url(#ff)"/>
+  <line x1="0" y1="204" x2="400" y2="204" stroke="#8B6914" stroke-width="0.8" opacity="0.4"/>
+  <line x1="0" y1="222" x2="400" y2="222" stroke="#8B6914" stroke-width="0.8" opacity="0.4"/>
+  <line x1="80" y1="188" x2="80" y2="240" stroke="#8B6914" stroke-width="0.5" opacity="0.3"/>
+  <line x1="160" y1="188" x2="160" y2="240" stroke="#8B6914" stroke-width="0.5" opacity="0.3"/>
+  <line x1="240" y1="188" x2="240" y2="240" stroke="#8B6914" stroke-width="0.5" opacity="0.3"/>
+  <line x1="320" y1="188" x2="320" y2="240" stroke="#8B6914" stroke-width="0.5" opacity="0.3"/>
+  <!-- Garden window -->
+  <rect x="242" y="12" width="148" height="140" rx="5" fill="url(#fs)"/>
+  <ellipse cx="278" cy="42" rx="22" ry="12" fill="white" opacity="0.85"/>
+  <ellipse cx="345" cy="50" rx="24" ry="13" fill="white" opacity="0.85"/>
+  <circle cx="370" cy="30" r="17" fill="#FFF176" opacity="0.95"/>
+  <rect x="242" y="128" width="148" height="24" fill="#66BB6A" opacity="0.55"/>
+  <rect x="248" y="108" width="5" height="22" fill="#5D4037"/>
+  <circle cx="250" cy="103" r="11" fill="#2E7D32" opacity="0.82"/>
+  <rect x="300" y="115" width="5" height="15" fill="#5D4037"/>
+  <circle cx="302" cy="110" r="9" fill="#388E3C" opacity="0.8"/>
+  <rect x="242" y="12" width="148" height="140" rx="5" fill="none" stroke="#8B7355" stroke-width="5"/>
+  <line x1="316" y1="12" x2="316" y2="152" stroke="#8B7355" stroke-width="4"/>
+  <path d="M240 10 Q228 80 235 152" fill="#E91E63" opacity="0.65"/>
+  <path d="M390 10 Q402 80 395 152" fill="#E91E63" opacity="0.65"/>
+  <!-- Double bed -->
+  <rect x="8" y="85" width="142" height="62" rx="8" fill="#3E2723"/>
+  <rect x="14" y="91" width="130" height="52" rx="6" fill="#4E342E"/>
+  <rect x="8" y="142" width="148" height="50" rx="5" fill="#1A0000"/>
+  <rect x="10" y="136" width="143" height="52" rx="7" fill="#FFF8F0"/>
+  <rect x="16" y="140" width="57" height="25" rx="7" fill="white"/>
+  <rect x="80" y="140" width="57" height="25" rx="7" fill="white"/>
+  <rect x="10" y="157" width="143" height="28" rx="5" fill="#FF6B35" opacity="0.9"/>
+  <circle cx="30" cy="168" r="4" fill="#FFD700" opacity="0.7"/>
+  <circle cx="55" cy="163" r="3" fill="white" opacity="0.5"/>
+  <circle cx="80" cy="168" r="4" fill="#FFD700" opacity="0.7"/>
+  <circle cx="105" cy="163" r="3" fill="white" opacity="0.5"/>
+  <circle cx="130" cy="168" r="4" fill="#FFD700" opacity="0.7"/>
+  <!-- Bunk beds -->
+  <rect x="156" y="78" width="78" height="116" rx="4" fill="#5D4037"/>
+  <!-- Top bunk -->
+  <rect x="159" y="81" width="72" height="46" rx="4" fill="#FFF8F0"/>
+  <rect x="162" y="84" width="66" height="17" fill="white"/>
+  <rect x="162" y="99" width="66" height="22" rx="3" fill="#1976D2" opacity="0.9"/>
+  <text x="168" y="113" font-family="Arial" font-size="8" fill="#FFD700" opacity="0.9">★  ★  ★</text>
+  <!-- Bottom bunk -->
+  <rect x="159" y="132" width="72" height="46" rx="4" fill="#FFF8F0"/>
+  <rect x="162" y="135" width="66" height="17" fill="white"/>
+  <rect x="162" y="150" width="66" height="22" rx="3" fill="#E91E63" opacity="0.87"/>
+  <text x="168" y="164" font-family="Arial" font-size="8" fill="white" opacity="0.9">♥  ♥  ♥</text>
+  <!-- Ladder -->
+  <rect x="228" y="81" width="5" height="97" rx="2" fill="#4E342E"/>
+  <rect x="226" y="94" width="9" height="3" rx="1" fill="#6D4C41"/>
+  <rect x="226" y="110" width="9" height="3" rx="1" fill="#6D4C41"/>
+  <rect x="226" y="126" width="9" height="3" rx="1" fill="#6D4C41"/>
+  <!-- Sofa -->
+  <rect x="156" y="196" width="130" height="33" rx="8" fill="url(#fso)"/>
+  <rect x="156" y="196" width="130" height="11" rx="6" fill="#6D4C41"/>
+  <rect x="161" y="200" width="37" height="26" rx="5" fill="#795548"/>
+  <rect x="202" y="200" width="37" height="26" rx="5" fill="#795548"/>
+  <rect x="243" y="200" width="37" height="26" rx="5" fill="#795548"/>
+  <rect x="163" y="202" width="20" height="17" rx="4" fill="#FF5722" opacity="0.9"/>
+  <rect x="245" y="202" width="20" height="17" rx="4" fill="#2196F3" opacity="0.9"/>
+  <!-- Ceiling fan -->
+  <circle cx="100" cy="12" r="7" fill="#8B7355"/>
+  <ellipse cx="80" cy="12" rx="17" ry="5" fill="#8B7355" opacity="0.7" transform="rotate(-30 80 12)"/>
+  <ellipse cx="120" cy="12" rx="17" ry="5" fill="#8B7355" opacity="0.7" transform="rotate(30 120 12)"/>
+  <ellipse cx="100" cy="0" rx="5" ry="12" fill="#8B7355" opacity="0.7"/>
+  <circle cx="100" cy="12" r="4" fill="#D4A017"/>
+  <!-- Badge -->
+  <rect x="8" y="8" width="158" height="33" rx="6" fill="#1B5E20" opacity="0.93"/>
+  <text x="18" y="21" font-family="Georgia,serif" font-size="9" fill="#FFFFFF" font-weight="bold">FAMILY SUITE</text>
+  <text x="18" y="34" font-family="Arial,sans-serif" font-size="8" fill="#A5D6A7">Bunk Beds · Garden View · Sofa</text>
+</svg>
